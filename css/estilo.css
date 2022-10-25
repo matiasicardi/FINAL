@@ -29,23 +29,29 @@ body {
   color: #fed200;
   padding: 10px; }
 
-.mainSTB .row h2, .mainSTB .row h5 {
+.mainOHeroi .row h2, .mainOHeroi .row h5 {
   font-family: "Play", sans-serif;
   text-align: center;
   color: #fed200; }
 
-.mainSTB .row h4 {
+.mainOHeroi .row h4 {
   font-family: "Play", sans-serif;
   color: #fed200;
   padding: 10px;
   text-align: left; }
 
-.mainSTB .row p {
+.mainOHeroi .row p {
   font-family: "Jura", sans-serif;
   color: white;
   text-align: justify; }
-  .mainSTB .row p .sorteo {
+  .mainOHeroi .row p .sorteo {
     color: #fed200; }
+
+.mainGaleria h4 {
+  background: #012169;
+  font-family: "Play", sans-serif;
+  color: #fed200;
+  text-align: center; }
 
 .mainContacto h5 {
   font-family: "Play", sans-serif;
@@ -81,25 +87,10 @@ body {
       color: #fed200; }
 
 @media screen and (max-width: 767px) {
-  .navbar-collapse .navbar-nav .nav-item {
+  nav ul li {
     padding-inline: 20px;
-    font-size: 1.2rem;
-    font-family: "Jura", sans-serif; }
-    .navbar-collapse .navbar-nav .nav-item .nav-link {
-      color: #fed200; }
-    .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-      background-color: #012169;
-      color: #fed200;
-      border-radius: 5px; }
-    .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
-      background-color: #009d39; }
-      .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-        color: #fed200;
-        font-size: 0.9rem; }
-      .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-        background-color: #012169;
-        color: #fed200;
-        border-radius: 5px; }
+    font-family: "Jura", sans-serif;
+    font-size: 1.2rem; }
   .mainOHeroi .row p {
     font-size: larger; }
   .mainContacto h5 {
@@ -133,25 +124,23 @@ body {
       .mainContacto section .textoContacto div a {
         color: #fed200; } }
 
-.navbar-collapse .navbar-nav .nav-item {
+nav ul li {
   padding-inline: 35px;
   font-size: 1.6rem;
   font-family: "Jura", sans-serif; }
-  .navbar-collapse .navbar-nav .nav-item .nav-link {
+  nav ul li .nav-link {
     color: #fed200; }
-  .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  nav ul li .nav-link:hover {
     background-color: #012169;
     color: #fed200;
-    border-radius: 5px;
-    scale: 1.1;
-    transition: 0.4s; }
-  .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
-    background-color: #009d39; }
-    .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    border-radius: 5px; }
+  nav ul li .dropdown-menu {
+    background: #009d39; }
+    nav ul li .dropdown-menu .dropdown-item {
       color: #fed200;
-      font-size: 1.1rem; }
-    .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+      text-align: center;
+      font-size: 1rem; }
+    nav ul li .dropdown-menu .dropdown-item:hover {
       background-color: #012169;
       color: #fed200;
-      border-radius: 5px;
-      scale: 0.9; }
+      border-radius: 5px; }

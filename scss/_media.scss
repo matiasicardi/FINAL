@@ -1,35 +1,16 @@
 @media screen and (max-width:767px){
     
-
-    .navbar-collapse{
-        .navbar-nav{
-            .nav-item{
+    nav{
+        ul{
+            li{
                 padding-inline: 20px;
-                font-size: 1.2rem;
                 font-family: $jura;
-                .nav-link{
-                    color: $amarillo;
-                }
-                .nav-link:hover{
-                    background-color: $azul;
-                    color: $amarillo;
-                    border-radius: 5px;
-                }
-                .dropdown-menu{
-                    background-color: $verde;
-                    .dropdown-item{
-                        color: $amarillo;
-                        font-size: 0.9rem;
-                    }
-                    .dropdown-item:hover{
-                        background-color: $azul;
-                        color: $amarillo;
-                        border-radius: 5px;
-                    }
-                }   
+                font-size: 1.2rem;
             }
         }
     }
+
+    
 
 
     .mainOHeroi{
