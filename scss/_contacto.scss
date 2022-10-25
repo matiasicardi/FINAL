@@ -1,0 +1,44 @@
+.mainContacto{
+    h5{
+        font-family: $play;
+        color: $amarillo;
+        text-align: center;
+    }
+    section{
+        display: inline-flex;
+        form{
+            width: 50%;
+            margin-top: 5px;
+            padding: 10px;
+            label{
+                font-family: $jura;
+                color: $amarillo;
+            }
+            .btn{
+                font-family: $jura;
+                color: $amarillo;
+                font-size: 1.1rem;
+            }
+            .btn:hover{
+                background-color: $azul;
+                color: $amarillo;
+            }
+        }
+        .textoContacto{
+            width: 50%;
+            margin-top: 5px;
+            padding: 10px;
+            font-family: $jura;
+            font-size: 1.3rem;
+            color: $amarillo;
+            text-align: justify;
+            position: relative;
+            div{
+                a{
+                    color: $amarillo;
+                }
+            }
+        }
+    }
+}
+

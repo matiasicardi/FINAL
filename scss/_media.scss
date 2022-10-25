@@ -1,0 +1,87 @@
+@media screen and (max-width:767px){
+    
+
+    .navbar-collapse{
+        .navbar-nav{
+            .nav-item{
+                padding-inline: 20px;
+                font-size: 1.2rem;
+                font-family: $jura;
+                .nav-link{
+                    color: $amarillo;
+                }
+                .nav-link:hover{
+                    background-color: $azul;
+                    color: $amarillo;
+                    border-radius: 5px;
+                }
+                .dropdown-menu{
+                    background-color: $verde;
+                    .dropdown-item{
+                        color: $amarillo;
+                        font-size: 0.9rem;
+                    }
+                    .dropdown-item:hover{
+                        background-color: $azul;
+                        color: $amarillo;
+                        border-radius: 5px;
+                    }
+                }   
+            }
+        }
+    }
+
+
+    .mainOHeroi{
+        .row{
+            p{
+                font-size: larger;
+            }
+        }
+    }
+
+
+    .mainContacto{
+        h5{
+            font-family: $play;
+            color: $amarillo;
+            text-align: center;
+        }
+        section{
+            display: block;
+            form{
+                width: 100%;
+                margin-top: 5px;
+                padding: 10px;
+                label{
+                    font-family: $jura;
+                    color: $amarillo;
+                }
+                .btn{
+                    font-family: $jura;
+                    background-color: $azul;
+                    color: $amarillo;
+                    font-size: 0.9rem;
+                }
+                .btn:hover{
+                    background-color: $verde;
+                    color: $amarillo;
+                }
+            }
+            .textoContacto{
+                width: 100%;
+                margin-top: 5px;
+                padding: 10px;
+                font-family: $jura;
+                font-size: 1rem;
+                color: $amarillo;
+                div{
+                    a{
+                        color: $amarillo;
+                    }
+                }
+            }
+        }
+    }
+    
+}

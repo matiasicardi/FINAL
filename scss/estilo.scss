@@ -1,0 +1,52 @@
+//VARIABLES
+
+$verde: #009d39;
+$amarillo: #fed200;
+$azul: #012169;
+
+$michroma: 'Michroma', sans-serif;
+$play: 'Play', sans-serif;
+$jura: 'Jura', sans-serif;
+
+
+//SCSS
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    header, main{
+        background-color: $verde;
+    }
+    main{
+        a{
+            color: $amarillo;
+        }
+        a:hover{
+            background-color: $azul;
+            color: $amarillo;
+            scale: 1.1;
+        }
+    }
+    footer{
+        background-color: $azul;
+        h4,h5,h6{
+            font-family: $play;
+            color: white;
+            padding: 10px;
+        }
+        div{
+            padding:15px;
+        }
+    }
+}
+
+//IMPORTS
+
+@import "index.scss"; @import "oheroi.scss"; @import "contacto.scss"; @import "media.scss"; @import "navbar.scss";

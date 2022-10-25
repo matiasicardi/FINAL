@@ -1,0 +1,32 @@
+.navbar-collapse{
+    .navbar-nav{
+        .nav-item{
+            padding-inline: 35px;
+            font-size: 1.6rem;
+            font-family: $jura;
+            .nav-link{
+                color: $amarillo;
+            }
+            .nav-link:hover{
+                background-color: $azul;
+                color: $amarillo;
+                border-radius: 5px;
+                scale: 1.1;
+                transition: 0.4s;
+            }
+            .dropdown-menu{
+                background-color: $verde;
+                .dropdown-item{
+                    color: $amarillo;
+                    font-size: 1.1rem;
+                }
+                .dropdown-item:hover{
+                    background-color: $azul;
+                    color: $amarillo;
+                    border-radius: 5px;
+                    scale: 0.9;
+                }
+            }   
+        }
+    }
+}

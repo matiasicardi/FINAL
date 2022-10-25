@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+  body header, body main {
+    background-color: #009d39; }
+  body main a {
+    color: #fed200; }
+  body main a:hover {
+    background-color: #012169;
+    color: #fed200;
+    scale: 1.1; }
+  body footer {
+    background-color: #012169; }
+    body footer h4, body footer h5, body footer h6 {
+      font-family: "Play", sans-serif;
+      color: white;
+      padding: 10px; }
+    body footer div {
+      padding: 15px; }
+
+.mainIndex h1, .mainIndex h3 {
+  font-family: "Michroma", sans-serif;
+  color: #fed200;
+  padding: 10px; }
+
+.mainSTB .row h2, .mainSTB .row h5 {
+  font-family: "Play", sans-serif;
+  text-align: center;
+  color: #fed200; }
+
+.mainSTB .row h4 {
+  font-family: "Play", sans-serif;
+  color: #fed200;
+  padding: 10px;
+  text-align: left; }
+
+.mainSTB .row p {
+  font-family: "Jura", sans-serif;
+  color: white;
+  text-align: justify; }
+  .mainSTB .row p .sorteo {
+    color: #fed200; }
+
+.mainContacto h5 {
+  font-family: "Play", sans-serif;
+  color: #fed200;
+  text-align: center; }
+
+.mainContacto section {
+  display: inline-flex; }
+  .mainContacto section form {
+    width: 50%;
+    margin-top: 5px;
+    padding: 10px; }
+    .mainContacto section form label {
+      font-family: "Jura", sans-serif;
+      color: #fed200; }
+    .mainContacto section form .btn {
+      font-family: "Jura", sans-serif;
+      color: #fed200;
+      font-size: 1.1rem; }
+    .mainContacto section form .btn:hover {
+      background-color: #012169;
+      color: #fed200; }
+  .mainContacto section .textoContacto {
+    width: 50%;
+    margin-top: 5px;
+    padding: 10px;
+    font-family: "Jura", sans-serif;
+    font-size: 1.3rem;
+    color: #fed200;
+    text-align: justify;
+    position: relative; }
+    .mainContacto section .textoContacto div a {
+      color: #fed200; }
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse .navbar-nav .nav-item {
+    padding-inline: 20px;
+    font-size: 1.2rem;
+    font-family: "Jura", sans-serif; }
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+      color: #fed200; }
+    .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+      background-color: #012169;
+      color: #fed200;
+      border-radius: 5px; }
+    .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+      background-color: #009d39; }
+      .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: #fed200;
+        font-size: 0.9rem; }
+      .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+        background-color: #012169;
+        color: #fed200;
+        border-radius: 5px; }
+  .mainOHeroi .row p {
+    font-size: larger; }
+  .mainContacto h5 {
+    font-family: "Play", sans-serif;
+    color: #fed200;
+    text-align: center; }
+  .mainContacto section {
+    display: block; }
+    .mainContacto section form {
+      width: 100%;
+      margin-top: 5px;
+      padding: 10px; }
+      .mainContacto section form label {
+        font-family: "Jura", sans-serif;
+        color: #fed200; }
+      .mainContacto section form .btn {
+        font-family: "Jura", sans-serif;
+        background-color: #012169;
+        color: #fed200;
+        font-size: 0.9rem; }
+      .mainContacto section form .btn:hover {
+        background-color: #009d39;
+        color: #fed200; }
+    .mainContacto section .textoContacto {
+      width: 100%;
+      margin-top: 5px;
+      padding: 10px;
+      font-family: "Jura", sans-serif;
+      font-size: 1rem;
+      color: #fed200; }
+      .mainContacto section .textoContacto div a {
+        color: #fed200; } }
+
+.navbar-collapse .navbar-nav .nav-item {
+  padding-inline: 35px;
+  font-size: 1.6rem;
+  font-family: "Jura", sans-serif; }
+  .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fed200; }
+  .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    background-color: #012169;
+    color: #fed200;
+    border-radius: 5px;
+    scale: 1.1;
+    transition: 0.4s; }
+  .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+    background-color: #009d39; }
+    .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+      color: #fed200;
+      font-size: 1.1rem; }
+    .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+      background-color: #012169;
+      color: #fed200;
+      border-radius: 5px;
+      scale: 0.9; }

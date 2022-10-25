@@ -1,0 +1,23 @@
+.mainSTB{
+    .row{
+        h2,h5{
+            font-family: $play;
+            text-align: center;
+            color: $amarillo;
+        }
+        h4{
+            font-family: $play;
+            color: $amarillo;
+            padding: 10px;
+            text-align: left;
+        }
+        p{
+            font-family: $jura;
+            color: white;
+            text-align: justify;
+            .sorteo{
+                color: $amarillo;
+            }
+        }
+    }
+}
